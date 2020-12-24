@@ -1,0 +1,91 @@
+.content {
+  max-width: 975px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 20px 0;
+}
+.content_user_info {
+  margin-bottom: 44px;
+}
+.content_user_info_inner {
+  display: flex;
+  justify-content: space-evenly;
+}
+.content_user_info-img {
+  margin-right: 30px;
+}
+.content_user_info-img img {
+  border-radius: 50%;
+}
+.content_user_info-desc-name {
+  display: flex;
+  align-items: center;
+}
+.content_user_info-desc-name h1 {
+  font-size: 28px;
+  line-height: 32px;
+  margin: -5px 0 -6px;
+}
+.content_user_info-edit-name {
+  margin-left: 20px;
+}
+.content_user_info-edit-name a {
+  background-color: transparent;
+  border: 1px solid rgba(219, 219, 219, 1);
+  color: rgba(38, 38, 38, 1);
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  font-weight: 600;
+  padding: 5px 9px;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+.content_user_info-settings {
+  margin-left: 20px;
+}
+.content_user_info-subscribersList {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.content_user_info-subscribersList li {
+  font-size: 16px;
+  margin-right: 40px;
+}
+.content_user_info-subscribersList-count {
+  color: rgba(38, 38, 38, 1);
+  font-weight: 600;
+}
+
+.content_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(38, 38, 38, 1);
+  border-top: 1px solid rgba(219, 219, 219, 1);
+}
+.content_nav a {
+  margin-right: 60px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: #8e8e8e;
+}
+.content_nav a.active {
+  border-top: 1px solid rgba(38,38,38,1);
+  margin-top: -1px;
+  color: rgba(38,38,38,1);
+}
+.content_nav a span {
+  display: flex;
+  align-items: center;
+}
+.content_nav_linl-name {
+  margin-left: 6px;
+  letter-spacing: 1px;
+}
