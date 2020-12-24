@@ -1,3 +1,3 @@
 ## React-redux INSTAGRAM HW
 
-<img src="./gif.gif" />
+<img src="./img.gif" />
